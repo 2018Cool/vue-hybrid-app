@@ -1,0 +1,27 @@
+plugins:
+
+  # - name
+  #
+  # or:
+  # - name: false
+  # - name: true
+  #
+  # or:
+  # - name:
+  #     param1: 1
+  #     param2: 2
+- removeMetadata: true
+- cleanupAttrs: true
+- cleanupIDs: true
+- removeDesc: true
+- mergePaths: true
+#- removeAttrs: {attrs: '(stroke|fill)'}
+- removeComments: true
+- removeDoctype: true
+- removeTitle: true
+- removeEmptyAttrs: true
+- removeHiddenElems: true
+- removeEmptyContainers: true
+- convertShapeToPath: true
+- convertPathData: false
+

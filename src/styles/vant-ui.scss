@@ -1,0 +1,51 @@
+.van-nav-bar__left {
+  padding: 0 15px;
+  left: 0;
+  height: 100%;
+}
+.van-nav-bar__right {
+  padding: 0 15px;
+  right: 0;
+  height: 100%;
+}
+.van-nav-bar__text:active {
+  background: none;
+}
+.van-tabbar {
+  // 解决 tabbar 动画抖动问题
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.van-tabs__nav {
+  // 解决tab 切换动画 抖动问题
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.van-cell:not(:last-child)::after {
+  left: 0;
+}
+.van-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: " ";
+  pointer-events: none;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid #c8c7cc;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+button:focus {
+  outline: none !important;
+}
+.van-action-sheet__cancel {
+  padding: 0;
+}
+.van-field__body {
+  .van-icon-clear {
+    position: absolute;
+    right: 0;
+    padding: 10px;
+  }
+}

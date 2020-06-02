@@ -1,0 +1,6 @@
+www/*
+config/*.js
+src/assets
+android
+ios
+plugins

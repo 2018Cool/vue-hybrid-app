@@ -1,0 +1,6 @@
+自动生成 图标和启动页
+须在resources目录放置icon和splash原图，
+icon 1024*1024，中心图标边距为5%，白色背景
+Android自适应图标  432*432，以icon-foreground.png命名
+splash 2732*2732，中心图标尺寸为1200*1200，上下左右居中
+https://github.com/ionic-team/cordova-res

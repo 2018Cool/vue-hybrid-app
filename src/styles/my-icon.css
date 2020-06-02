@@ -1,0 +1,72 @@
+@font-face {
+    font-family: my-icon;
+    src: url("../assets/fonts/my-icon.ttf?e0f08362") format("truetype"),
+             url("../assets/fonts/my-icon.svg?e0f08362#my-icon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="my-icon"], [class*=" my-icon"] {
+    font-family: 'my-icon' !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+}
+
+
+.my-icon-add::before {
+    content: "\ea01";
+}
+
+.my-icon-arrow-down::before {
+    content: "\ea02";
+}
+
+.my-icon-arrow-up::before {
+    content: "\ea03";
+}
+
+.my-icon-building::before {
+    content: "\ea04";
+}
+
+.my-icon-call::before {
+    content: "\ea05";
+}
+
+.my-icon-edit::before {
+    content: "\ea06";
+}
+
+.my-icon-email::before {
+    content: "\ea07";
+}
+
+.my-icon-filter::before {
+    content: "\ea08";
+}
+
+.my-icon-filtered::before {
+    content: "\ea09";
+}
+
+.my-icon-name::before {
+    content: "\ea0a";
+}
+
+.my-icon-plane::before {
+    content: "\ea0b";
+}
+
+.my-icon-question::before {
+    content: "\ea0c";
+}
+
+.my-icon-tel::before {
+    content: "\ea0d";
+}
+
+.my-icon-upload::before {
+    content: "\ea0e";
+}
+

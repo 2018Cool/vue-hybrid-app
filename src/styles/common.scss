@@ -1,0 +1,22 @@
+#ring {
+  div {
+    z-index: 1 !important;
+  }
+}
+
+.my-font-color {
+  color: $my_black !important;
+}
+.small-red-circle {
+  display: block;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: $my_red;
+}
+.text-gray {
+  color: $my_gray !important;
+}
+p {
+  margin-bottom: 0;
+}
